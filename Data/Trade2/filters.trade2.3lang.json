@@ -1,0 +1,1393 @@
+{
+  "result": [
+    {
+      "id": "status_filters",
+      "filters": [
+        {
+          "id": "status",
+          "option": {
+            "options": [
+              {
+                "id": "available",
+                "text": "Instant Buyout and In Person",
+                "text_cn": "",
+                "text_tw": "即刻購買以及面對面交易"
+              },
+              {
+                "id": "securable",
+                "text": "Instant Buyout",
+                "text_cn": "立即购买",
+                "text_tw": "即刻購買"
+              },
+              {
+                "id": "onlineleague",
+                "text": "In Person (Online in League)",
+                "text_cn": "",
+                "text_tw": "面對面交易(聯盟在線)"
+              },
+              {
+                "id": "online",
+                "text": "In Person (Online)",
+                "text_cn": "",
+                "text_tw": "面對面交易(在線)"
+              },
+              {
+                "id": "any",
+                "text": "Any",
+                "text_cn": "",
+                "text_tw": "任何"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "type_filters",
+      "title": "Type Filters",
+      "title_cn": "类型过滤器",
+      "title_tw": "類別過濾",
+      "filters": [
+        {
+          "id": "category",
+          "text": "Item Category",
+          "text_cn": "物品类型",
+          "text_tw": "道具分類",
+          "fullSpan": true,
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "weapon",
+                "text": "Any Weapon",
+                "text_cn": "任何武器",
+                "text_tw": "武器"
+              },
+              {
+                "id": "weapon.onemelee",
+                "text": "Any One-Handed Melee Weapon",
+                "text_cn": "任意单手近战武器",
+                "text_tw": "任何單手近戰武器"
+              },
+              {
+                "id": "weapon.unarmed",
+                "text": "Unarmed",
+                "text_cn": "徒手",
+                "text_tw": "空手"
+              },
+              {
+                "id": "weapon.claw",
+                "text": "Claw",
+                "text_cn": "爪",
+                "text_tw": "爪"
+              },
+              {
+                "id": "weapon.dagger",
+                "text": "Dagger",
+                "text_cn": "匕首",
+                "text_tw": "匕首"
+              },
+              {
+                "id": "weapon.onesword",
+                "text": "One-Handed Sword",
+                "text_cn": "单手剑",
+                "text_tw": "單手劍"
+              },
+              {
+                "id": "weapon.oneaxe",
+                "text": "One-Handed Axe",
+                "text_cn": "单手斧",
+                "text_tw": "單手斧"
+              },
+              {
+                "id": "weapon.onemace",
+                "text": "One-Handed Mace",
+                "text_cn": "单手锤",
+                "text_tw": "單手錘"
+              },
+              {
+                "id": "weapon.spear",
+                "text": "Spear",
+                "text_cn": "战矛",
+                "text_tw": "長鋒"
+              },
+              {
+                "id": "weapon.flail",
+                "text": "Flail",
+                "text_cn": "连枷",
+                "text_tw": "鏈錘"
+              },
+              {
+                "id": "weapon.twomelee",
+                "text": "Any Two-Handed Melee Weapon",
+                "text_cn": "任意双手近战武器",
+                "text_tw": "任何雙手近戰武器"
+              },
+              {
+                "id": "weapon.twosword",
+                "text": "Two-Handed Sword",
+                "text_cn": "双手剑",
+                "text_tw": "雙手劍"
+              },
+              {
+                "id": "weapon.twoaxe",
+                "text": "Two-Handed Axe",
+                "text_cn": "双手斧",
+                "text_tw": "雙手斧"
+              },
+              {
+                "id": "weapon.twomace",
+                "text": "Two-Handed Mace",
+                "text_cn": "双手锤",
+                "text_tw": "雙手錘"
+              },
+              {
+                "id": "weapon.warstaff",
+                "text": "Quarterstaff",
+                "text_cn": "节杖",
+                "text_tw": "細杖"
+              },
+              {
+                "id": "weapon.talisman",
+                "text": "Talisman",
+                "text_cn": "魔符",
+                "text_tw": "魔符"
+              },
+              {
+                "id": "weapon.ranged",
+                "text": "Any Ranged Weapon",
+                "text_cn": "任意远程武器",
+                "text_tw": "任何遠程武器"
+              },
+              {
+                "id": "weapon.bow",
+                "text": "Bow",
+                "text_cn": "弓",
+                "text_tw": "弓"
+              },
+              {
+                "id": "weapon.crossbow",
+                "text": "Crossbow",
+                "text_cn": "战弩",
+                "text_tw": "十字弓"
+              },
+              {
+                "id": "weapon.caster",
+                "text": "Any Caster Weapon",
+                "text_cn": "任意施法者武器",
+                "text_tw": "任何法術武器"
+              },
+              {
+                "id": "weapon.wand",
+                "text": "Wand",
+                "text_cn": "法杖",
+                "text_tw": "法杖"
+              },
+              {
+                "id": "weapon.sceptre",
+                "text": "Sceptre",
+                "text_cn": "短杖",
+                "text_tw": "權杖"
+              },
+              {
+                "id": "weapon.staff",
+                "text": "Staff",
+                "text_cn": "长杖",
+                "text_tw": "長杖"
+              },
+              {
+                "id": "weapon.rod",
+                "text": "Fishing Rod",
+                "text_cn": "鱼竿",
+                "text_tw": "釣竿"
+              },
+              {
+                "id": "armour",
+                "text": "Any Armour",
+                "text_cn": "任何护甲",
+                "text_tw": "任意護甲"
+              },
+              {
+                "id": "armour.helmet",
+                "text": "Helmet",
+                "text_cn": "头盔",
+                "text_tw": "頭盔"
+              },
+              {
+                "id": "armour.chest",
+                "text": "Body Armour",
+                "text_cn": "胸甲",
+                "text_tw": "胸甲"
+              },
+              {
+                "id": "armour.gloves",
+                "text": "Gloves",
+                "text_cn": "手套",
+                "text_tw": "手套"
+              },
+              {
+                "id": "armour.boots",
+                "text": "Boots",
+                "text_cn": "鞋子",
+                "text_tw": "鞋子"
+              },
+              {
+                "id": "armour.quiver",
+                "text": "Quiver",
+                "text_cn": "箭袋",
+                "text_tw": "箭袋"
+              },
+              {
+                "id": "armour.shield",
+                "text": "Shield",
+                "text_cn": "盾",
+                "text_tw": "盾"
+              },
+              {
+                "id": "armour.focus",
+                "text": "Focus",
+                "text_cn": "法器",
+                "text_tw": "法器"
+              },
+              {
+                "id": "armour.buckler",
+                "text": "Buckler",
+                "text_cn": "轻盾",
+                "text_tw": "輕盾"
+              },
+              {
+                "id": "accessory",
+                "text": "Any Accessory",
+                "text_cn": "任何配件",
+                "text_tw": "配件"
+              },
+              {
+                "id": "accessory.amulet",
+                "text": "Amulet",
+                "text_cn": "项链",
+                "text_tw": "項鍊"
+              },
+              {
+                "id": "accessory.belt",
+                "text": "Belt",
+                "text_cn": "腰带",
+                "text_tw": "腰帶"
+              },
+              {
+                "id": "accessory.ring",
+                "text": "Ring",
+                "text_cn": "戒指",
+                "text_tw": "戒指"
+              },
+              {
+                "id": "gem",
+                "text": "Any Gem",
+                "text_cn": "任何宝石",
+                "text_tw": "任何寶石"
+              },
+              {
+                "id": "gem.activegem",
+                "text": "Skill Gem",
+                "text_cn": "技能宝石",
+                "text_tw": "技能寶石"
+              },
+              {
+                "id": "gem.supportgem",
+                "text": "Support Gem",
+                "text_cn": "辅助宝石",
+                "text_tw": "輔助寶石"
+              },
+              {
+                "id": "gem.metagem",
+                "text": "Meta Gem",
+                "text_cn": "非凡宝石",
+                "text_tw": "主要寶石"
+              },
+              {
+                "id": "jewel",
+                "text": "Any Jewel",
+                "text_cn": "任何珠宝",
+                "text_tw": "任何珠寶"
+              },
+              {
+                "id": "flask",
+                "text": "Any Flask",
+                "text_cn": "任意药剂",
+                "text_tw": "任何藥劑"
+              },
+              {
+                "id": "flask.life",
+                "text": "Life Flask",
+                "text_cn": "生命药剂",
+                "text_tw": "生命藥劑"
+              },
+              {
+                "id": "flask.mana",
+                "text": "Mana Flask",
+                "text_cn": "魔力药剂",
+                "text_tw": "魔力藥劑"
+              },
+              {
+                "id": "map",
+                "text": "Any Endgame Item",
+                "text_cn": "任意终局物品",
+                "text_tw": "任何終局物品"
+              },
+              {
+                "id": "map.waystone",
+                "text": "Waystone",
+                "text_cn": "引路石",
+                "text_tw": "換界石"
+              },
+              {
+                "id": "map.fragment",
+                "text": "Map Fragment",
+                "text_cn": "地图碎片",
+                "text_tw": "地圖碎片"
+              },
+              {
+                "id": "map.logbook",
+                "text": "Logbook",
+                "text_cn": "日志",
+                "text_tw": "日誌"
+              },
+              {
+                "id": "map.breachstone",
+                "text": "Breachstone",
+                "text_cn": "裂隙石",
+                "text_tw": "裂痕石"
+              },
+              {
+                "id": "map.barya",
+                "text": "Barya",
+                "text_cn": "巨灵币",
+                "text_tw": "巨靈之幣"
+              },
+              {
+                "id": "map.bosskey",
+                "text": "Pinnacle Key",
+                "text_cn": "巅峰钥匙",
+                "text_tw": "巔峰鑰匙"
+              },
+              {
+                "id": "map.ultimatum",
+                "text": "Ultimatum Key",
+                "text_cn": "致命贪婪钥匙",
+                "text_tw": "通牒鑰匙"
+              },
+              {
+                "id": "map.tablet",
+                "text": "Tablet",
+                "text_cn": "石板",
+                "text_tw": "碑牌"
+              },
+              {
+                "id": "card",
+                "text": "Divination Card",
+                "text_cn": "命运卡",
+                "text_tw": "命運卡"
+              },
+              {
+                "id": "sanctum.relic",
+                "text": "Relic",
+                "text_cn": "遗物",
+                "text_tw": "古典"
+              },
+              {
+                "id": "currency",
+                "text": "Any Currency",
+                "text_cn": "任何通货",
+                "text_tw": "任何通貨"
+              },
+              {
+                "id": "currency.omen",
+                "text": "Omen",
+                "text_cn": "预兆",
+                "text_tw": "預兆"
+              },
+              {
+                "id": "currency.socketable",
+                "text": "Any Augment",
+                "text_cn": "任何增幅器",
+                "text_tw": "任何增幅"
+              },
+              {
+                "id": "currency.rune",
+                "text": "Rune",
+                "text_cn": "符文",
+                "text_tw": "符文"
+              },
+              {
+                "id": "currency.soulcore",
+                "text": "Soul Core",
+                "text_cn": "灵核",
+                "text_tw": "靈魂核心"
+              },
+              {
+                "id": "currency.idol",
+                "text": "Idol",
+                "text_cn": "魔偶",
+                "text_tw": "魔偶"
+              }
+            ]
+          }
+        },
+        {
+          "id": "rarity",
+          "text": "Item Rarity",
+          "text_cn": "物品稀有度",
+          "text_tw": "物品稀有度",
+          "fullSpan": true,
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "normal",
+                "text": "Normal",
+                "text_cn": "一般",
+                "text_tw": "一般"
+              },
+              {
+                "id": "magic",
+                "text": "Magic",
+                "text_cn": "魔法",
+                "text_tw": "魔法"
+              },
+              {
+                "id": "rare",
+                "text": "Rare",
+                "text_cn": "稀有",
+                "text_tw": "稀有"
+              },
+              {
+                "id": "unique",
+                "text": "Unique",
+                "text_cn": "传奇",
+                "text_tw": "傳奇"
+              },
+              {
+                "id": "uniquefoil",
+                "text": "Unique (Foil)",
+                "text_cn": "传奇（烫金）",
+                "text_tw": "傳奇 (貼模)"
+              },
+              {
+                "id": "nonunique",
+                "text": "Any Non-Unique",
+                "text_cn": "任何非传奇",
+                "text_tw": "非傳奇道具"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ilvl",
+          "text": "Item Level",
+          "text_cn": "物品等级",
+          "text_tw": "物品等級",
+          "minMax": true
+        },
+        {
+          "id": "quality",
+          "text": "Item Quality",
+          "text_cn": "物品品质",
+          "text_tw": "道具品質",
+          "minMax": true
+        }
+      ]
+    },
+    {
+      "id": "equipment_filters",
+      "title": "Equipment Filters",
+      "title_cn": "装备过滤器",
+      "title_tw": "裝備篩選器",
+      "hidden": true,
+      "filters": [
+        {
+          "id": "damage",
+          "text": "Damage",
+          "text_cn": "伤害",
+          "text_tw": "傷害",
+          "minMax": true
+        },
+        {
+          "id": "aps",
+          "text": "Attacks per Second",
+          "text_cn": "每秒攻击次数",
+          "text_tw": "每秒攻擊速度",
+          "minMax": true
+        },
+        {
+          "id": "crit",
+          "text": "Critical Chance",
+          "text_cn": "暴击几率",
+          "text_tw": "暴擊機率",
+          "minMax": true
+        },
+        {
+          "id": "dps",
+          "text": "Damage per Second",
+          "text_cn": "每秒伤害",
+          "text_tw": "每秒傷害",
+          "minMax": true
+        },
+        {
+          "id": "pdps",
+          "text": "Physical DPS",
+          "text_cn": "每秒物理伤害",
+          "text_tw": "物理傷害",
+          "minMax": true
+        },
+        {
+          "id": "edps",
+          "text": "Elemental DPS",
+          "text_cn": "每秒元素伤害",
+          "text_tw": "元素傷害",
+          "minMax": true
+        },
+        {
+          "id": "reload_time",
+          "text": "Reload Time",
+          "text_cn": "装填时间",
+          "text_tw": "重新載入時間",
+          "minMax": true,
+          "halfSpan": true
+        },
+        {
+          "id": "ar",
+          "text": "Armour",
+          "text_cn": "护甲",
+          "text_tw": "護甲",
+          "tip": "Includes base value, local modifiers, and maximum quality",
+          "tip_cn": "包括基础数值、本地词缀、最大品质",
+          "tip_tw": "包含基礎值、區域詞綴和最大品質",
+          "minMax": true
+        },
+        {
+          "id": "ev",
+          "text": "Evasion",
+          "text_cn": "闪避",
+          "text_tw": "閃避",
+          "tip": "Includes base value, local modifiers, and maximum quality",
+          "tip_cn": "包括基础数值、本地词缀、最大品质",
+          "tip_tw": "包含基礎值、區域詞綴和最大品質",
+          "minMax": true
+        },
+        {
+          "id": "es",
+          "text": "Energy Shield",
+          "text_cn": "能量护盾",
+          "text_tw": "能量護盾",
+          "tip": "Includes base value, local modifiers, and maximum quality",
+          "tip_cn": "包括基础数值、本地词缀、最大品质",
+          "tip_tw": "包含基礎值、區域詞綴和最大品質",
+          "minMax": true
+        },
+        {
+          "id": "ward",
+          "text": "Runic Ward",
+          "text_cn": "符文结界",
+          "text_tw": "符文保護",
+          "tip": "Includes base value, local modifiers, and maximum quality",
+          "tip_cn": "包括基础数值、本地词缀、最大品质",
+          "tip_tw": "包含基礎值、區域詞綴和最大品質",
+          "minMax": true
+        },
+        {
+          "id": "block",
+          "text": "Block",
+          "text_cn": "格挡",
+          "text_tw": "格擋",
+          "tip": "Includes base value and local modifiers",
+          "tip_cn": "包括基础数值和本地词缀",
+          "tip_tw": "包含基礎值和區域詞綴",
+          "minMax": true
+        },
+        {
+          "id": "spirit",
+          "text": "Spirit",
+          "text_cn": "精魂",
+          "text_tw": "精魂",
+          "tip": "Includes base value, local modifiers, and maximum quality",
+          "tip_cn": "包括基础数值、本地词缀、最大品质",
+          "tip_tw": "包含基礎值、區域詞綴和最大品質",
+          "minMax": true
+        },
+        {
+          "id": "rune_sockets",
+          "text": "Augmentable Sockets",
+          "text_cn": "增幅器插槽",
+          "text_tw": "可增幅插槽",
+          "minMax": true
+        }
+      ]
+    },
+    {
+      "id": "req_filters",
+      "title": "Requirements",
+      "title_cn": "需求",
+      "title_tw": "物品需求",
+      "hidden": true,
+      "filters": [
+        {
+          "id": "lvl",
+          "text": "Level",
+          "text_cn": "等级",
+          "text_tw": "等級",
+          "minMax": true
+        },
+        {
+          "id": "str",
+          "text": "Strength",
+          "text_cn": "力量",
+          "text_tw": "力量",
+          "minMax": true
+        },
+        {
+          "id": "dex",
+          "text": "Dexterity",
+          "text_cn": "敏捷",
+          "text_tw": "敏捷",
+          "minMax": true
+        },
+        {
+          "id": "int",
+          "text": "Intelligence",
+          "text_cn": "智慧",
+          "text_tw": "智慧",
+          "minMax": true
+        }
+      ]
+    },
+    {
+      "id": "map_filters",
+      "title": "Endgame Filters",
+      "title_cn": "终局过滤器",
+      "title_tw": "終局篩選器",
+      "hidden": true,
+      "filters": [
+        {
+          "id": "map_tier",
+          "text": "Waystone Tier",
+          "text_cn": "引路石阶级",
+          "text_tw": "換界石階級",
+          "minMax": true
+        },
+        {
+          "id": "map_packsize",
+          "text": "Waystone Packsize",
+          "text_cn": "引路石怪物群大小增加",
+          "text_tw": "換界石怪物群大小",
+          "minMax": true
+        },
+        {
+          "id": "map_iiq",
+          "text": "Waystone IIQ",
+          "text_cn": "引路石物品掉落数量增加",
+          "text_tw": "換界石物品數量",
+          "tip": "Increased Item Quantity",
+          "tip_cn": "物品掉落数量增加",
+          "tip_tw": "物品數量增加",
+          "minMax": true
+        },
+        {
+          "id": "map_iir",
+          "text": "Waystone IIR",
+          "text_cn": "引路石物品稀有度增加",
+          "text_tw": "換界石物品稀有度",
+          "tip": "Increased Item Rarity",
+          "tip_cn": "物品稀有度增加",
+          "tip_tw": "物品稀有度增加",
+          "minMax": true
+        },
+        {
+          "id": "map_revives",
+          "text": "Waystone Revives",
+          "text_cn": "引路石挑战次数",
+          "text_tw": "換界石復活次數",
+          "minMax": true
+        },
+        {
+          "id": "map_bonus",
+          "text": "Waystone Drop Chance",
+          "text_cn": "引路石掉落几率增加",
+          "text_tw": "換界石掉落機率",
+          "minMax": true
+        },
+        {
+          "id": "map_gold",
+          "text": "Waystone Gold",
+          "text_cn": "引路石金币增加",
+          "text_tw": "換界石金幣數量",
+          "minMax": true
+        },
+        {
+          "id": "map_experience",
+          "text": "Waystone Experience",
+          "text_cn": "引路石经验增加",
+          "text_tw": "換界石經驗值獲取",
+          "minMax": true
+        },
+        {
+          "id": "map_magic_monsters",
+          "text": "Waystone Magic Monsters",
+          "text_cn": "引路石魔法怪物增加",
+          "text_tw": "換界石魔法怪物數量",
+          "minMax": true
+        },
+        {
+          "id": "map_rare_monsters",
+          "text": "Waystone Rare Monsters",
+          "text_cn": "引路石稀有怪物增加",
+          "text_tw": "換界石稀有怪物數量",
+          "minMax": true
+        },
+        {
+          "id": "ultimatum_hint",
+          "text": "Ultimatum Trial Hint",
+          "text_cn": "致命贪婪试炼提示",
+          "text_tw": "最後通牒試煉提示",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "Victorious",
+                "text": "Victorious",
+                "text_cn": "胜利",
+                "text_tw": "勝利"
+              },
+              {
+                "id": "Cowardly",
+                "text": "Cowardly",
+                "text_cn": "懦弱",
+                "text_tw": "怯懦"
+              },
+              {
+                "id": "Deadly",
+                "text": "Deadly",
+                "text_cn": "危难",
+                "text_tw": "致命"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "misc_filters",
+      "title": "Miscellaneous",
+      "title_cn": "其他",
+      "title_tw": "其它",
+      "hidden": true,
+      "filters": [
+        {
+          "id": "gem_level",
+          "text": "Gem Level",
+          "text_cn": "技能宝石等级",
+          "text_tw": "寶石等級",
+          "minMax": true
+        },
+        {
+          "id": "gem_sockets",
+          "text": "Gem Sockets",
+          "text_cn": "宝石插槽",
+          "text_tw": "寶石插槽",
+          "minMax": true
+        },
+        {
+          "id": "area_level",
+          "text": "Area Level",
+          "text_cn": "区域等级",
+          "text_tw": "區域等級",
+          "minMax": true
+        },
+        {
+          "id": "stack_size",
+          "text": "Stack Size",
+          "text_cn": "堆叠数量",
+          "text_tw": "堆疊數量",
+          "minMax": true
+        },
+        {
+          "id": "identified",
+          "text": "Identified",
+          "text_cn": "已鉴定",
+          "text_tw": "已鑑定",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fractured_item",
+          "text": "Fractured",
+          "text_cn": "分裂的",
+          "text_tw": "破裂",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "corrupted",
+          "text": "Corrupted",
+          "text_cn": "已腐化",
+          "text_tw": "已汙染",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sanctified",
+          "text": "Sanctified",
+          "text_cn": "已圣化",
+          "text_tw": "聖化",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "twice_corrupted",
+          "text": "Twice Corrupted",
+          "text_cn": "双倍腐化",
+          "text_tw": "雙重腐化",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mutated",
+          "text": "Cultivated Vaal Unique",
+          "text_cn": "培育瓦尔传奇",
+          "text_tw": "已培育的瓦爾傳奇",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "veiled",
+          "text": "Unrevealed",
+          "text_cn": "未揭露",
+          "text_tw": "未揭露",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "desecrated",
+          "text": "Desecrated",
+          "text_cn": "渎灵",
+          "text_tw": "褻瀆",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "crafted",
+          "text": "Crafted",
+          "text_cn": "工艺的",
+          "text_tw": "已工藝",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "foreseeing",
+          "text": "Foreseeing",
+          "text_cn": "预知未来",
+          "text_tw": "預見",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mirrored",
+          "text": "Mirrored",
+          "text_cn": "已复制",
+          "text_tw": "已複製",
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              },
+              {
+                "id": "false",
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sanctum_gold",
+          "text": "Barya Sacred Water",
+          "text_cn": "巨灵币圣水",
+          "text_tw": "巨靈之幣神聖之水",
+          "minMax": true
+        },
+        {
+          "id": "unidentified_tier",
+          "text": "Unidentified Tier",
+          "text_cn": "未鉴定品阶",
+          "text_tw": "未鑑定階級",
+          "minMax": true
+        }
+      ]
+    },
+    {
+      "id": "trade_filters",
+      "title": "Trade Filters",
+      "title_cn": "交易过滤",
+      "title_tw": "交易過濾",
+      "hidden": true,
+      "filters": [
+        {
+          "id": "account",
+          "text": "Seller Account",
+          "text_cn": "卖家帐号",
+          "text_tw": "賣家帳號",
+          "fullSpan": true,
+          "input": {
+            "placeholder": "Enter account name...",
+            "placeholder_cn": "输入账号名",
+            "placeholder_tw": "輸入帳號名稱..."
+          }
+        },
+        {
+          "id": "collapse",
+          "text": "Collapse Listings by Account",
+          "text_cn": "按账号收起列表",
+          "text_tw": "透過帳號摺疊名單",
+          "fullSpan": true,
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "No",
+                "text_cn": "否",
+                "text_tw": "否"
+              },
+              {
+                "id": "true",
+                "text": "Yes",
+                "text_cn": "是",
+                "text_tw": "是"
+              }
+            ]
+          }
+        },
+        {
+          "id": "indexed",
+          "text": "Listed",
+          "text_cn": "已上架",
+          "text_tw": "標示",
+          "fullSpan": true,
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Any Time",
+                "text_cn": "任何时间",
+                "text_tw": "任何時間"
+              },
+              {
+                "id": "1hour",
+                "text": "Up to an Hour Ago",
+                "text_cn": "1小时内",
+                "text_tw": "1 小時前"
+              },
+              {
+                "id": "3hours",
+                "text": "Up to 3 Hours Ago",
+                "text_cn": "3小时内",
+                "text_tw": "3 小時前"
+              },
+              {
+                "id": "12hours",
+                "text": "Up to 12 Hours Ago",
+                "text_cn": "12小时内",
+                "text_tw": "12 小時前"
+              },
+              {
+                "id": "1day",
+                "text": "Up to a Day Ago",
+                "text_cn": "1天内",
+                "text_tw": "至多 1 天前"
+              },
+              {
+                "id": "3days",
+                "text": "Up to 3 Days Ago",
+                "text_cn": "3天内",
+                "text_tw": "至多 3 天前"
+              },
+              {
+                "id": "1week",
+                "text": "Up to a Week Ago",
+                "text_cn": "1周内",
+                "text_tw": "至多 1 個禮拜前"
+              },
+              {
+                "id": "2weeks",
+                "text": "Up to 2 Weeks Ago",
+                "text_cn": "2周内",
+                "text_tw": "至多 2 個禮拜前"
+              },
+              {
+                "id": "1month",
+                "text": "Up to 1 Month Ago",
+                "text_cn": "1月内",
+                "text_tw": "至多 1 個月前"
+              },
+              {
+                "id": "2months",
+                "text": "Up to 2 Months Ago",
+                "text_cn": "1月内",
+                "text_tw": "至多 2 個月前"
+              }
+            ]
+          }
+        },
+        {
+          "id": "sale_type",
+          "text": "Sale Type",
+          "text_cn": "交易类型",
+          "text_tw": "販售型式",
+          "fullSpan": true,
+          "option": {
+            "options": [
+              {
+                "id": "any",
+                "text": "Any",
+                "text_cn": "任何",
+                "text_tw": "任何"
+              },
+              {
+                "id": null,
+                "text": "Buyout or Fixed Price",
+                "text_cn": "一口价",
+                "text_tw": "直購價或定價"
+              },
+              {
+                "id": "priced_with_info",
+                "text": "Price with Note",
+                "text_cn": "备注标价",
+                "text_tw": "標價："
+              },
+              {
+                "id": "unpriced",
+                "text": "No Listed Price",
+                "text_cn": "无定价",
+                "text_tw": "無定價"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fee",
+          "text": "Gold Fee",
+          "text_cn": "金币费用",
+          "text_tw": "金幣手續費",
+          "fullSpan": true,
+          "minMax": true
+        },
+        {
+          "id": "price",
+          "text": "Buyout Price",
+          "text_cn": "一口价",
+          "text_tw": "直購價",
+          "fullSpan": true,
+          "option": {
+            "options": [
+              {
+                "id": null,
+                "text": "Exalted Orb Equivalent",
+                "text_cn": "崇高石等价物",
+                "text_tw": "等同崇高石"
+              },
+              {
+                "id": "exalted_divine",
+                "text": "Exalted or Divine Orbs",
+                "text_cn": "崇高石或神圣石",
+                "text_tw": "崇高石或神聖石"
+              },
+              {
+                "id": "aug",
+                "text": "Orb of Augmentation",
+                "text_cn": "增幅石",
+                "text_tw": "增幅石"
+              },
+              {
+                "id": "transmute",
+                "text": "Orb of Transmutation",
+                "text_cn": "蜕变石",
+                "text_tw": "蛻變石"
+              },
+              {
+                "id": "exalted",
+                "text": "Exalted Orb",
+                "text_cn": "崇高石",
+                "text_tw": "崇高石"
+              },
+              {
+                "id": "regal",
+                "text": "Regal Orb",
+                "text_cn": "富豪石",
+                "text_tw": "富豪石"
+              },
+              {
+                "id": "chaos",
+                "text": "Chaos Orb",
+                "text_cn": "混沌石",
+                "text_tw": "混沌石"
+              },
+              {
+                "id": "vaal",
+                "text": "Vaal Orb",
+                "text_cn": "瓦尔宝珠",
+                "text_tw": "瓦爾寶珠"
+              },
+              {
+                "id": "alch",
+                "text": "Orb of Alchemy",
+                "text_cn": "点金石",
+                "text_tw": "點金石"
+              },
+              {
+                "id": "divine",
+                "text": "Divine Orb",
+                "text_cn": "神圣石",
+                "text_tw": "神聖石"
+              },
+              {
+                "id": "annul",
+                "text": "Orb of Annulment",
+                "text_cn": "剥离石",
+                "text_tw": "無效石"
+              },
+              {
+                "id": "mirror",
+                "text": "Mirror of Kalandra",
+                "text_cn": "卡兰德的魔镜",
+                "text_tw": "卡蘭德魔鏡"
+              }
+            ]
+          },
+          "minMax": true
+        }
+      ]
+    }
+  ]
+}

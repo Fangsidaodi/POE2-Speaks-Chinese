@@ -1,0 +1,289 @@
+{
+  "result": [
+    {
+      "id": "pseudo",
+      "label": "Pseudo",
+      "label_cn": "综合",
+      "label_tw": "偽屬性",
+      "entries": []
+    },
+    {
+      "id": "explicit",
+      "label": "Explicit",
+      "label_cn": "外延",
+      "label_tw": "隨機屬性",
+      "entries": [
+        {
+          "id": "explicit.stat_3552135623",
+          "text": "#% to amount of Damage Prevented by Deflection",
+          "text_cn": "偏转阻止的伤害 #%",
+          "text_tw": "#% 偏斜抵禦傷害量",
+          "type": "explicit"
+        }
+      ]
+    },
+    {
+      "id": "implicit",
+      "label": "Implicit",
+      "label_cn": "基底",
+      "label_tw": "固性屬性",
+      "entries": [
+        {
+          "id": "implicit.stat_2933846633",
+          "text": "#% chance to Daze on Hit",
+          "text_cn": "击中时有 #% 的几率使目标恍惚",
+          "text_tw": "擊中時有 #% 機率造成目眩",
+          "type": "implicit"
+        },
+        {
+          "id": "implicit.stat_1416292992",
+          "text": "Has # Charm Slots",
+          "text_cn": "具有 # 个咒符栏",
+          "text_tw": "有 # 個護符欄位",
+          "type": "implicit"
+        }
+      ]
+    },
+    {
+      "id": "fractured",
+      "label": "Fractured",
+      "label_cn": "分裂的",
+      "label_tw": "破裂",
+      "entries": []
+    },
+    {
+      "id": "enchant",
+      "label": "Enchant",
+      "label_cn": "附魔",
+      "label_tw": "附魔",
+      "entries": []
+    },
+    {
+      "id": "rune",
+      "label": "Augment",
+      "label_cn": "增幅器",
+      "label_tw": "增幅",
+      "entries": []
+    },
+    {
+      "id": "desecrated",
+      "label": "Desecrated",
+      "label_cn": "渎灵",
+      "label_tw": "褻瀆",
+      "entries": []
+    },
+    {
+      "id": "sanctum",
+      "label": "Sanctum",
+      "label_cn": "禁域",
+      "label_tw": "聖域",
+      "entries": []
+    },
+    {
+      "id": "skill",
+      "label": "Skill",
+      "label_cn": "技能",
+      "label_tw": "技能",
+      "entries": [
+        {
+          "id": "skill.huntress_ice_spear",
+          "text": "Grants Skill: Spear Throw",
+          "text_cn": "获得技能: 战矛飞掷",
+          "text_tw": "賦予技能: 長矛投擲",
+          "type": "skill"
+        },
+        {
+          "id": "skill.shield_block",
+          "text": "Grants Skill: Raise Shield",
+          "text_cn": "获得技能: 架盾",
+          "text_tw": "賦予技能: 展開護盾",
+          "type": "skill"
+        },
+        {
+          "id": "skill.parry",
+          "text": "Grants Skill: Parry",
+          "text_cn": "获得技能: 招架",
+          "text_tw": "賦予技能: 招架",
+          "type": "skill"
+        }
+      ]
+    },
+    {
+      "id": "logbook",
+      "label": "Logbook",
+      "label_cn": "日志",
+      "label_tw": "日誌",
+      "entries": [
+        {
+          "id": "logbook.barren_atoll",
+          "text": "Barren Atoll",
+          "text_cn": "贫瘠环礁",
+          "text_tw": "貧瘠環礁",
+          "type": "area"
+        },
+        {
+          "id": "logbook.lush_isle",
+          "text": "Lush Isle",
+          "text_cn": "笼葱海岛",
+          "text_tw": "蓊鬱群島",
+          "type": "area"
+        },
+        {
+          "id": "logbook.frigid_bluffs",
+          "text": "Frigid Bluffs",
+          "text_cn": "极寒峭壁",
+          "text_tw": "極寒峭壁",
+          "type": "area"
+        },
+        {
+          "id": "logbook.faction.druids",
+          "text": "Druids of the Broken Circle",
+          "text_cn": "裂环祭司",
+          "text_tw": "破碎環之德魯伊",
+          "type": "faction"
+        },
+        {
+          "id": "logbook.faction.black_scythe",
+          "text": "Black Scythe Mercenaries",
+          "text_cn": "黑镰佣兵",
+          "text_tw": "黑鐮傭兵",
+          "type": "faction"
+        },
+        {
+          "id": "logbook.faction.order",
+          "text": "Order of the Chalice",
+          "text_cn": "圣杯教团",
+          "text_tw": "聖杯之序",
+          "type": "faction"
+        },
+        {
+          "id": "logbook.faction.knights",
+          "text": "Knights of the Sun",
+          "text_cn": "烈日骑士",
+          "text_tw": "豔陽騎士",
+          "type": "faction"
+        }
+      ]
+    },
+    {
+      "id": "property",
+      "label": "Property",
+      "label_cn": "属性",
+      "label_tw": "屬性",
+      "entries": [
+        {
+          "id": "property",
+          "text": "Recovers {0} Life over {1} Seconds",
+          "text_cn": "{1} 秒内回复 {0} 生命",
+          "text_tw": "{1} 秒內回復 {0} 生命",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Recovers {0} Mana over {1} Seconds",
+          "text_cn": "{1} 秒内回复 {0} 魔力",
+          "text_tw": "{1} 秒內回復 {0} 魔力",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Recovers {0} Mana every {1} Seconds",
+          "text_cn": "每 {1} 秒回复 {0} 魔力",
+          "text_tw": "每 {1} 秒恢復 {0} 魔力",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Lasts {0} Seconds",
+          "text_cn": "持续 {0} 秒",
+          "text_tw": "持續 {0} 秒",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Consumes {0} of {1} Charges on use",
+          "text_cn": "每次使用会从 {0} 充能次数中消耗 {1}次",
+          "text_tw": "每次使用會從 {0} 充能次數中消耗 {1}次",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Currently has {0} Charges",
+          "text_cn": "目前有 {0} 充能次数",
+          "text_tw": "目前有 {0} 充能次數",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "# Levels from Gem",
+          "text_cn": "技能石等级 #",
+          "text_tw": "透過寶石 # 等級",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "# Level from Corruption",
+          "text_cn": "由腐化 # 等级",
+          "text_tw": "腐化等級 #",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Cost: # Mana",
+          "text_cn": "消耗: # 点魔力",
+          "text_tw": "消耗: # 魔力",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Cost: # Mana per second",
+          "text_cn": "消耗: 点魔力, 魔力每秒 # 点",
+          "text_tw": "消耗: 每秒 # 魔力",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Cost: # Mana, # Rage per second",
+          "text_cn": "消耗: # 点魔力, # 点怒火/秒",
+          "text_tw": "消耗: # 魔力, 每秒 # 盛怒",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Attack Speed: #% of base",
+          "text_cn": "攻击速度: #% 基础",
+          "text_tw": "攻擊速度: 基礎的 #%",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Attack Damage: #%",
+          "text_cn": "攻击伤害: #%",
+          "text_tw": "攻擊傷害: #%",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Reservation: # [Spirit]",
+          "text_cn": "保留: # [精魂]",
+          "text_tw": "保留: # [精魂]",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Cast Time: #s",
+          "text_cn": "施放时间: # 秒",
+          "text_tw": "施放時間: # 秒",
+          "type": "property"
+        },
+        {
+          "id": "property",
+          "text": "Cooldown Time: #s",
+          "text_cn": "冷却时间: # 秒",
+          "text_tw": "冷卻時間: # 秒",
+          "type": "property"
+        }
+      ]
+    }
+  ]
+}
